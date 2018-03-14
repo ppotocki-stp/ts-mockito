@@ -14,7 +14,7 @@
     "test:karma": "./node_modules/.bin/karma start karma.conf.js --single-run",
     "test:karma:watch": "./node_modules/.bin/karma start karma.conf.js",
     "lint": "./node_modules/tslint/bin/tslint -c tslint.json 'src/**/*.ts' 'test/**/*.ts'",
-    "postinstall": "npm run compile"
+    "postinstall": "npm install && npm run compile"
   },
   "author": "kuster.maciej@gmail.com",
   "license": "MIT",
